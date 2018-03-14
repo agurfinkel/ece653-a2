@@ -18,11 +18,18 @@ class PuzzleTests (unittest.TestCase):
         self.assertEquals (res, (9567, 1085, 10652))
 
     def test_2 (self):
-        pass
+        """SINCE + JULIUS = CAESAR"""
+        res = solve ('SINCE', 'JULIUS', 'CAESAR')
+        self.assertEquals (res, (92685, 713219, 805904))
 
     def test_3 (self):
-        pass
-    
+         """MENTAL + HEALTH = MATTERS"""
+        res = solve ('MENTAL', 'HEALTH', 'MATTERS')
+        self.assertEquals (res, (123408, 920849, 1044257))     
+
     def test_4 (self):
-        pass
-        
+        """WINTER + INTO = SPRING"""
+        res = solve ('WINTER', 'INTO', 'SPRING')
+        self.assertEquals (res, (398167, 9815, 407982))
+
+ 
